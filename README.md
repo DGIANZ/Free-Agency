@@ -1,2 +1,2 @@
-# Free-Agency
-A HTML/CSS Template Based On CSS Author's PSD
+# Free Agency
+Free Agency is a HTML/CSS template based On CSS Author's Free Agency PSD that can be found at https://cssauthor.com/resources/business-website-template-psd/
