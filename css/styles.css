@@ -60,6 +60,6 @@
                 }
 
                 #header-top-icons li:first-child {
-                    border-right: solid #e2e2e2 1px;
+                    border-right: 1px solid #e2e2e2;
                 }
             }
