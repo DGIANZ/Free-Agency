@@ -1,0 +1,65 @@
+/*
+    Template Name: Free Agency
+    Designed By: CSS Author
+    Developed By: Derrick Gilliland
+    PSD URL: https://cssauthor.com/resources/business-website-template-psd/
+    HTML URL: https://github.com/DGIANZ/Free-Agency
+
+    Table Of Contents
+    -----------------
+    1) General Styles
+    2) Header Styles
+        2.1) Top Header Styles
+        2.2) Bottom Header Styles
+    1x) Media Queries
+        1x.1 Screen Size >=768
+    -----------------
+*/
+
+/* 1) General Styles */
+    h1,h2,h3,h4,h5,
+    h6,p,li,a,i {
+        color: #424242;
+    }
+    a:hover {
+        color: #CB4F4D;
+        text-decoration: none;
+    }
+
+/* 2) Header Styles */
+    /* 2.1) Top Header Styles */
+        #header-top {
+            background: #f0f2f4;
+            border-bottom: 2px solid #EDEEF0;
+        }
+
+        #header-top-icons {
+            list-style-type: none;
+            font-size: 15px;
+            text-align: center;
+        }
+
+        #header-top-icons li {
+            padding: 5px;
+        }
+
+        .header-top-icon {
+            font-family: Helvetica;
+        }
+    
+    /*1x) Media Queries */
+        /*1x.1 Screen Size >=768 */
+            @media (min-width: 768px) {
+                #header-top-icons {
+                    text-align: unset;
+                }
+
+                #header-top-icons li {
+                    float: left;
+                    padding: 10px;
+                }
+
+                #header-top-icons li:first-child {
+                    border-right: solid #e2e2e2 1px;
+                }
+            }
